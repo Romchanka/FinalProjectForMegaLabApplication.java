@@ -4,6 +4,8 @@ import lombok.Data;
 
 @Data
 public class CreateAdminDTO {
-    private String login;
+    private String adminName;
     private String password;
+    private String passConfirm;
+    private String personalNumber;
 }
